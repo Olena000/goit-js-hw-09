@@ -92,20 +92,3 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
   captionsData: 'alt',
 });
-// container.addEventListener('click', handleClick);
-
-// function handleClick(event) {
-//   event.preventDefault();
-//   if (event.target === event.currentTarget) {
-//     return;
-//   } else {
-//     const source = event.target.dataset.source;
-//     const alt = event.target.alt;
-//     if (source && alt) {
-//       const instance = basicLightbox.create(`
-//         <img class="img-big" src="${source}" alt="${alt}"/>
-//       `);
-//       instance.show();
-//     }
-//   }
-// }
